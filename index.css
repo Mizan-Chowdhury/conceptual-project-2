@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+/* navbar starts here */
+.nav-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  background-color: grey;
+}
+.nav-menus {
+  display: flex;
+  gap: 50px;
+  font-size: 20px;
+}
+nav a {
+  color: white;
+}
+nav a:hover {
+  color: lightgray;
+}
+
+/* navbar ends here */
+
+/* banner section starts here */
+.banner-container {
+  height: 100vh;
+  background-image: url("images/background.jpg"),
+    linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4));
+  background-blend-mode: overlay;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+.banner-info {
+  margin-left: 300px;
+}
+.banner-title {
+  font-size: 55px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 15px;
+}
+.title-color {
+  color: red;
+}
+.banner-description {
+  color: white;
+  margin-bottom: 10px;
+}
+.banner-btn {
+  color: white;
+  padding: 12px 18px;
+  background-color: red;
+  border: none;
+}
+.btn {
+  background-color: rgb(230, 230, 230);
+  color: black;
+}
+/* banner section ends here */
+
+/* service section starts here */
+.service-container {
+  height: 100vh;
+  background-image: url("images/footer-bg.png"),
+    linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+  background-blend-mode: overlay;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 20px;
+}
+.service-left-info {
+  width: 50%;
+}
+.first-box-line {
+  display: flex;
+  text-align: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.box {
+  width: 200px;
+  height: 180px;
+  background-color: white;
+  color: black;
+  padding: 30px;
+  border-radius: 5px;
+}
+.servise-img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+.service-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+.service-description {
+  margin-bottom: 10px;
+  color: #bdbdbd;
+}
+
+.author-img {
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+}
+.author-profile {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border-right: 1px solid rgb(119, 23, 23);
+  padding-right: 40px;
+}
+
+.author-info {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin-top: 20px;
+}
+
+/* service section ends here */
+
+/* appointment starts here */
+.appointment-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  background-color: #47110042;
+  padding: 20px;
+  color: rgb(0, 0, 0);
+}
+.call-icon {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+}
+.call-img {
+  width: 70px;
+  border-right: 1px solid rgb(78, 78, 78);
+  padding-right: 10px;
+}
+.appointment-description {
+  text-align: center;
+  font-size: large;
+  padding-bottom: 20px;
+}
+
+/* appointment ends here */
+
+/* blog starts here */
+.blog-container {
+  background-color: rgb(105, 105, 105);
+  text-align: center;
+  padding-bottom: 30px;
+}
+.blog-title {
+  padding: 50px;
+}
+.cards {
+  display: flex;
+  justify-content: space-around;
+}
+.card {
+  width: 250px;
+  height: 350px;
+  border-radius: 5px;
+  box-shadow: 4px 8px 10px gray;
+  text-align: center;
+  background-color: white;
+}
+.card h3,
+p {
+  margin-top: 20px;
+}
+.card-img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+/* blog ends here */
+
+/* footer starts here */
+footer {
+  background-color: black;
+  color: white;
+}
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 70vh;
+}
+.footer-logo {
+  width: 20%;
+}
+.footer-heading {
+  margin-bottom: 20px;
+}
+.footer-icons img {
+  margin-top: 20px;
+  padding: 10px;
+}
+.footer-last {
+  text-align: center;
+  padding-bottom: 20px;
+}
+footer hr {
+  margin: 0 200px;
+}
+/* footer ends here */
